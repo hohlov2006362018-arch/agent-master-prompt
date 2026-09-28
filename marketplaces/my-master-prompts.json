@@ -1,0 +1,28 @@
+{
+  "name": "my-master-prompts",
+  "owner": {
+    "name": "hohlov2006362018-arch",
+    "email": "hohlov2006362018-arch@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Universal master prompt for AI coding agents: candor, honesty protocol, workflow and engineering standards. Works with OpenHands, Claude Code (via import), Codex, Cursor, Copilot and any agent that reads AGENTS.md.",
+    "pluginRoot": "./skills"
+  },
+  "plugins": [
+    {
+      "name": "master-prompt",
+      "source": "./skills/master-prompt",
+      "description": "Universal senior-engineer operating rules for all AI coding agents. Auto-loads for every task - candor, honesty protocol, workflow, and engineering standards. Use always.",
+      "category": "agent-behavior",
+      "keywords": [
+        "master-prompt",
+        "agents",
+        "prompt",
+        "candor",
+        "honesty",
+        "workflow",
+        "universal"
+      ]
+    }
+  ]
+}
